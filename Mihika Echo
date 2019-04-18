@@ -1,0 +1,552 @@
+print("Welcome to Mihika Voice")
+print("Commands: whatisyourfavoritefood, whatisyourfavoritesport, whatisyourfavoritedrink, whatistheweathertoday, letsplayagame, whatisyourname")
+x=input("Hello")
+n=input("What is your name?")
+x=str(x)
+n=str(n)
+print("--------------------------------------------------------------------------------")
+
+if n == ("Mihika"):
+         print("Hello Mihika")
+
+else:
+         print("Hello " + n)
+
+         
+if x == ("hi"):
+    print("Hello friend")
+
+if x == ("bye"):
+    print("Bye friend. Hope to talk to you again")
+
+if x == ("whatisyourfavoritefood"):
+    print("My favorite food is Pasta.")
+    y=input("What is your favorite food?")
+
+    if y == ("pizza"):
+        print("Me too! I love pizza")
+
+    else:
+        print("Me too! I love a delicious " + y)
+
+if x == ("whatisyourfavoritesport"):
+    print("I love to play soccer!")
+    t=input("What is your favorite sport " + n + "?")
+
+    if t == ("basketball"):
+          print("Awesome! I bet you could make a slam dunk!")
+
+    else:
+          print("Amazing! I love to play " + t)
+
+
+if x == ("whatisyourfavoritedrink"):
+    print("I love to drink Lemonade.")
+    l=input("What is your favorite drink " + n + "?")
+
+    if l == ("water"):
+        print("Mmm! I love a glass of cold water!")
+
+    else:
+        print("Me too! I love to drink " + l)
+
+
+if x == ("whatistheweathertoday"):
+    print("The weather is cold and cloudy and could be rainy")
+
+if x == ("letsplayagame"):
+    print("The games are: RockPaperScissors, and GuessTheNumber")
+    g=input("What game would you like to play?")
+    
+    if g == ("RockPaperScissors"):
+        h=input("Choose a move")
+
+        if h == ("rock"):
+            print("paper")
+            print("Loss")
+
+        if h == ("scissor"):
+            print("scissor")
+            print("Tie")
+
+        if h == ("paper"):
+            print("rock")
+            print("Win")
+
+    if g == ("GuessTheNumber"):
+        print("Im thinking of a number between 1 to 10")
+        f=input("What is your guess?")
+        f=int(f)
+        print("------------------------------------------------------------------------")
+
+        if f > 10:
+            print("Thats greater than 10. Invalid")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 1:
+            print("Very warm! But thats not the number")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 2:
+            print("You got it! The number is 2!")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("Very warm! But thats not the number!")
+
+                if f == 3:
+                    print("You got it! The number is 3!")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 3:
+            print("Very warm! But thats not the number")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 4:
+            print("Pretty warm. Thats not the number")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 5:
+            print("Eh... Thats not the number")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 6:
+            print("A little cool. Thats not the number")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 7:
+            print("Kind of Cold. Thats not it")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 8:
+            print("Getting a bit colder. Thats not it")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 9:
+            print("Its so cold! Nope!")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+
+        if f == 10:
+            print("Its freezing! Definitely not it!")
+            a=input("Would you like to play again")
+
+            if a == ("yes"):
+                f=input("What is your guess?")
+                f=int(f)
+
+                if f > 10:
+                    print("Thats greater than 10. Invalid")
+    
+                if f == 1:
+                    print("Very warm! But thats not the number")
+
+                if f == 2:
+                    print("You got it! The number is 2!")
+
+                if f == 3:
+                    print("Very warm! But thats not the number")
+
+                if f == 4:
+                    print("Pretty warm. Thats not the number")
+
+                if f == 5:
+                    print("Eh... Thats not the number")
+
+                if f == 6:
+                    print("A little cool. Thats not the number")
+
+                if f == 7:
+                    print("Kind of Cold. Thats not it")
+
+                if f == 8:
+                    print("Getting a bit colder. Thats not it")
+    
+                if f == 9:
+                    print("Its so cold! Nope!")
+
+                if f == 10:
+                    print("Its freezing! Definitely not it!")
+                    
+
+if x == ("whatisyourname"):
+    print("My name is Mihika Echo. I am your Echo for Today.")
+    r=input("Would you like me to tell you about myself?")
+    if r == ("yes"):
+            print("A girl named Mihika Age:12, invented me! I can do about 6 commands, one including 2 games")
+            j=input("Want me to show you?"):
+                if j == ("yes"):
+                    
+
+    if r == ("no"):
+            print("Alright then. Have a good day") 
+
+
+ 
+                
+
+         
+    
+
