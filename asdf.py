@@ -9,6 +9,7 @@ print("To have the sun, press the 1 key")
 print("To close the door and make it night time, press the 2 key")
 print("To open the windows, press the 3 key")
 print("To grow a tree, press the 4 key")
+print("To make it rain, press the 5 key")
 
 def drawHouse(background):
     pygame.draw.rect(background, (232, 193, 116), (250,250,500,525))
